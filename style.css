@@ -1,0 +1,25 @@
+/* lato-font family */
+.font-lato{
+    font-family: 'Lato', sans-serif;
+}
+/* Add this style to your CSS file or inline style */
+.linear-bg::before {
+    content: '';
+    position: absolute;
+    inset: 0;
+    background-image: linear-gradient(to right, rgba(9, 9, 9, 0.686),rgba(22, 21, 21, 0.484), rgba(60, 58, 58, 0.549));
+}
+
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: 'Lato', sans-serif;
+}
+
+.bg-hero{
+    background: url('./images/team.png');
+    object-fit: cover;
+    background-repeat: no-repeat;
+
+}
